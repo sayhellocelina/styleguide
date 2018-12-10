@@ -1,0 +1,70 @@
+.sidebar-container {
+
+    background: #ececec;
+    height: 100%;
+    position: fixed;
+    padding: 60px;
+    width: 200px;
+}
+
+nav {
+    top: 0;
+}
+
+nav a,
+nav h2 {
+    display: block;
+    position: relative;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    margin: 1em;
+    text-align: center;
+    color: black;
+}
+
+a:hover {
+    color: green;
+}
+
+ /* 
+====================================
+Sets up styles for .content-container 
+====================================
+*/
+
+/* Positions section container in relation to .sidebar-container */
+.section-container {
+    background:white;
+    margin-top: 40px;
+    margin-left: 310px;
+    padding: 30px 30px;
+    height: 100%;
+  }
+  
+  /* Sets max width for content and align content in middle of section-container */
+.content-container {
+     background:white;
+     margin: 0 auto;
+     max-width: 850px;
+  }
+
+  /* Sets row behavior using flexbox: https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+.row-container-no-wrap {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .row-container {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin-top: 15px;
+      margin-bottom: 15px;
+  
+  }
