@@ -169,7 +169,9 @@ Sets all document color styles
     .btn {
       background-color:#FEAD02;
       color: #444444;
-      padding: 14px 50px;
+      border: 1px solid #ffffff;
+      padding: 14px 48px;
+      margin: 5px;
       font-family: 'Source Sans Pro', sans-serif;
       font-size: 16px;
       cursor: pointer;
@@ -178,17 +180,15 @@ Sets all document color styles
     /* normal */
     .normal {
       background: #FEAD02;
+      /* border: 1px solid #ffffff; */
       color: #444444;
     }
     
-    /* .normal:hover {
-      background-color: #4CAF50;
-      color: white;
-    } */
-    
+
     /* hover */
     .hover {
       background: #046836;
+      /* border: 1px solid #ffffff; */
       color: #ffffff;
     }
     
@@ -199,10 +199,6 @@ Sets all document color styles
       color: #ffffff;
     }
     
-    /* .focus:hover {
-      background: #ff9800;
-      color: white;
-    } */
     
     /* active */
     .active {
@@ -210,17 +206,20 @@ Sets all document color styles
       border: 1px solid #444444;
     }
     
-    /* .active:hover {
-      background: #f44336;
-      color: white;
-    } */
-    
+
     /* disabled */
     .disabled {
       background: #CCCCCC;
+      /* border: 1px solid #ffffff; */
       color: #ffffff;
     }
-    
-    /* .disabled:hover {
-      background: #e7e7e7;
-    } */
+
+    /* 
+    ====================================
+    Sets all icons styles
+    ====================================
+    */
+    .icons {
+      height: 65px;
+      weight: 78px;
+    }
