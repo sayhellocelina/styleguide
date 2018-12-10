@@ -58,7 +58,7 @@ Sets up styles for .content-container
 
   /* Sets row behavior using flexbox: https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
 .row-container-no-wrap {
-    width: 100%;
+    width: 75%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -101,6 +101,62 @@ Sets all document font styles
     color: #444444;
   }
 
-  .Comfortaa {
-    font-family: 'Comfortaa', cursive;
-  }
+   /* 
+====================================
+Sets all document color styles
+====================================
+*/
+  .color-box {
+    width: 16em;
+    height: 9em;
+    background: black;
+    padding: 10px;
+    margin: 10px;
+    display:block;
+    }
+    
+    .p-centered {
+      font-family: sans-serif;
+      font-size: 1em;
+      margin: 0.75em;
+      padding: 0.75em;
+      line-height: 5px;
+      color: white;
+    }
+
+    .p-centered-light{
+      font-family: sans-serif;
+      font-size: 1em;
+      margin: 0.75em;
+      padding: 0.75em;
+      line-height: 5px;
+      color: #000000;
+    }
+
+    .field-green { 
+      background: #046836;
+    }
+
+    .sunset-yellow {
+      background: #FEAD02;
+    }
+    .cloud-white {
+      background: #ffffff;
+      color:#000000;
+      border: solid 1px #444444;
+    }
+
+    .grey-ground {
+      background: #323332;
+    }
+
+    .grn-wash {
+      background:rgb(224, 238, 226)
+      ;
+    }
+
+    .sun-yel {
+      background:rgb(255, 241, 212)
+      ;
+    }
+    255 | 241 | 212
