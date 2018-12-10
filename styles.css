@@ -159,4 +159,68 @@ Sets all document color styles
       background:rgb(255, 241, 212)
       ;
     }
-    255 | 241 | 212
+
+    /* 
+    ====================================
+    Sets all document color styles
+    ====================================
+    */
+
+    .btn {
+      background-color:#FEAD02;
+      color: #444444;
+      padding: 14px 50px;
+      font-family: 'Source Sans Pro', sans-serif;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    
+    /* normal */
+    .normal {
+      background: #FEAD02;
+      color: #444444;
+    }
+    
+    /* .normal:hover {
+      background-color: #4CAF50;
+      color: white;
+    } */
+    
+    /* hover */
+    .hover {
+      background: #046836;
+      color: #ffffff;
+    }
+    
+    /* focus */
+    .focus {
+      background: #046836;
+      border: 1px solid #FEAD02;
+      color: #ffffff;
+    }
+    
+    /* .focus:hover {
+      background: #ff9800;
+      color: white;
+    } */
+    
+    /* active */
+    .active {
+      background: #FEAD02;
+      border: 1px solid #444444;
+    }
+    
+    /* .active:hover {
+      background: #f44336;
+      color: white;
+    } */
+    
+    /* disabled */
+    .disabled {
+      background: #CCCCCC;
+      color: #ffffff;
+    }
+    
+    /* .disabled:hover {
+      background: #e7e7e7;
+    } */
