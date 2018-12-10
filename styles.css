@@ -1,3 +1,9 @@
+/* 
+====================================
+Sets up styles for sidebar
+====================================
+*/
+
 .sidebar-container {
 
     background: #ececec;
@@ -20,11 +26,12 @@ nav h2 {
     font-size: 1em;
     margin: 1em;
     text-align: center;
-    color: black;
+    color: #444444;
 }
 
 a:hover {
-    color: green;
+    color: #046836;
+    font-weight: 600;
 }
 
  /* 
@@ -67,4 +74,29 @@ Sets up styles for .content-container
       margin-top: 15px;
       margin-bottom: 15px;
   
+  }
+
+
+ /* 
+====================================
+Sets all document font styles
+====================================
+*/
+  p {
+    font-family: 'Open Sans', sans-serif;
+    color: #444444;
+  }
+
+  h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.25em;
+    color: #444444;
+  }
+  h2 {
+    font-family: 'Open Sans', sans-serif;
+    color: #444444;
+  }
+  h3 {
+    font-family: 'Open Sans', sans-serif;
+    color: #444444;
   }
